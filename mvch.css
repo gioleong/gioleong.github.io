@@ -1,0 +1,38 @@
+/* body {
+    background-color: #FCB95C;
+} */
+
+h1 {
+    font-size: 70px;
+    color: #5983C3;
+}
+
+#header {
+    width: 50%;
+    margin: auto;
+}
+
+#header > p {
+    font-family: 'PT Mono', monospace;
+    color: grey;
+}
+
+.box {
+    border: 3px solid #393E57;
+    box-shadow: -20px 20px 0px #393E57, -1px 1px 2px #e0e0e0;
+}
+
+#goal {
+    border: 3px solid #FCB95C;
+    box-shadow: -20px 20px 0px #FCB95C, -1px 1px 2px #e0e0e0;
+}
+
+#gif {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#gif > img {
+    width: 70%;
+}
+
