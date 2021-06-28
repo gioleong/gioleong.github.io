@@ -43,7 +43,7 @@ h1 {
 
 #about-me > h2 {
     margin-top: 0px;
-    font-family: 'Major Mono Display', serif;
+    font-family: 'Major Mono Display', monospace;
 }
 
 #about-me > p {
@@ -52,7 +52,7 @@ h1 {
 
 .box {
     background-color: white;
-    font-family: 'PT Mono', serif;
+    font-family: 'PT Mono', monospace;
     margin: auto;
     margin-top: 40px;
     width: 50%;
