@@ -22,17 +22,44 @@ h1 {
     box-shadow: -20px 20px 0px #393E57, -1px 1px 2px #e0e0e0;
 }
 
+.subheader {
+    font-weight: bold;
+    text-decoration: underline;
+    font-style: italic;
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 3px;
+}
+
 #goal {
     border: 3px solid #FCB95C;
     box-shadow: -20px 20px 0px #FCB95C, -1px 1px 2px #e0e0e0;
 }
 
 #gif {
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 30px;
 }
 
 #gif > img {
     width: 70%;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 5px 10px -1px rgba(0, 0, 0, 0.05);
 }
 
+.list {
+    margin-top: 0px;
+}
+
+#final {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#accordion-link {
+    color: #50D7FF;
+}
+
+#last {
+    box-shadow: -20px 20px 0px black, -1px 1px 2px lightgrey;
+}
