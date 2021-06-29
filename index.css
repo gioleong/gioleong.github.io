@@ -51,12 +51,6 @@ h1 {
     box-shadow: -20px 20px 0px black, -1px 1px 2px lightgrey;
 }
 
-@media only screen and (min-width: 2000px) {
-    .box > p {
-        font-size: = 30px;
-    }
-}
-
 #last {
     margin-bottom: 50px;
 }
@@ -103,4 +97,10 @@ h1 {
 
 .social-media-link {
     color: #50D7FF;
+}
+
+@media only screen and (min-width: 20000px) {
+    .box > p{
+        font-size: 20px;
+    }
 }
