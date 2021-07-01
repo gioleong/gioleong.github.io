@@ -7,6 +7,10 @@ h1 {
     color: #5983C3;
 }
 
+li {
+    margin-top: 3px;
+}
+
 #header {
     width: 50%;
     margin: auto;
@@ -29,6 +33,12 @@ h1 {
     display: block;
     margin-top: 40px;
     margin-bottom: 3px;
+}
+
+#role > span {
+    margin-bottom: 8px;
+    font-weight: bold;
+    display: block;
 }
 
 #goal {
@@ -70,7 +80,7 @@ h1 {
 }
 
 #top {
-    margin-bottom: 8px;
+    margin-bottom: 15px;
 }
 
 @media only screen and (max-width: 800px) {
