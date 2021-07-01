@@ -69,6 +69,10 @@ h1 {
     display: none;
 }
 
+#top {
+    margin-bottom: 8px;
+}
+
 @media only screen and (max-width: 800px) {
     #title {
         display: none;
