@@ -85,5 +85,13 @@ li {
     #header > p {
         font-size: 10px;
     }
+
+    .box {
+        box-shadow: -5px 5px 0 #393E57;
+    }
+
+    #goal {
+        box-shadow: -5px 5px 0 #FCB95C;
+    }
 }
 
