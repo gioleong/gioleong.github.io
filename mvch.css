@@ -66,16 +66,11 @@ li {
     text-decoration: underline;
 }
 
-#last {
-    border: 3px solid black;
-    box-shadow: -20px 20px 0px black, -1px 1px 2px lightgrey;
-}
-
 #small-title {
     display: none;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1200px) {
     #title {
         display: none;
     }
@@ -83,8 +78,11 @@ li {
     #small-title {
         display: block;
     }
+}
 
+@media only screen and (max-width: 800px) {
     #header > p {
         font-size: 10px;
     }
 }
+
