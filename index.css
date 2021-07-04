@@ -93,8 +93,8 @@ h1 {
     margin-bottom: 0px;
 }
 
-.social-media-link {
-    color: #50D7FF;
+a {
+    color: #40C0FF;
 }
 
 @media only screen and (min-width: 2000px) {
@@ -114,9 +114,27 @@ h1 {
     }
 }
 
-@media only screen and (max-width: 1200px) {
-    h1 {
-        font-size: 50px !important;
+@media only screen and (max-width: 800px) {
+
+    body {
+        font-size: 12px;
     }
+
+    h1 {
+        font-size: 40px !important;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    #resume-button {
+        font-size: 14px;
+    }
+
+    .box {
+        width: 70%;
+    }
+
 }
 

@@ -66,10 +66,6 @@ li {
     text-decoration: underline;
 }
 
-#accordion-link {
-    color: #50D7FF;
-}
-
 #last {
     border: 3px solid black;
     box-shadow: -20px 20px 0px black, -1px 1px 2px lightgrey;
@@ -79,10 +75,6 @@ li {
     display: none;
 }
 
-#top {
-    margin-bottom: 15px;
-}
-
 @media only screen and (max-width: 800px) {
     #title {
         display: none;
@@ -90,5 +82,9 @@ li {
 
     #small-title {
         display: block;
+    }
+
+    #header > p {
+        font-size: 10px;
     }
 }
