@@ -46,7 +46,7 @@ h1 {
     width: 50%;
     padding: 50px 25px 50px 25px;
     border: 3px solid black;
-    box-shadow: -20px 20px 0px black, -1px 1px 2px lightgrey;
+    box-shadow: -20px 20px 0px black;
 }
 
 #last {
