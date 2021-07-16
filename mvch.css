@@ -18,10 +18,10 @@ li {
 
 #back > a {
     margin: 10px;
-    font-size: 45px;
+    font-size: 70px;
     text-decoration: none;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 600;
+    font-family: 'Major Mono Display', monospace;
+    /* font-weight: 500; */
     color: #5983C3;
 }
 
@@ -41,7 +41,7 @@ li {
 }
 
 .subheader {
-    font-weight: 600;
+    font-weight: 500;
     text-decoration: underline;
     display: block;
     margin-top: 40px;
@@ -50,7 +50,7 @@ li {
 
 #role > span {
     margin-bottom: 8px;
-    font-weight: 600;
+    font-weight: 500;
     display: block;
 }
 
@@ -74,7 +74,7 @@ li {
 }
 
 #final {
-    font-weight: 600;
+    font-weight: 500;
     text-decoration: underline;
 }
 
@@ -95,7 +95,7 @@ li {
     }
 
     #back > a {
-        font-size: 35px;
+        font-size: 55px;
     }
 }
 
@@ -117,7 +117,7 @@ li {
     }
 
     #back > a {
-        font-size: 25px;
+        font-size: 35px;
     }
 }
 
