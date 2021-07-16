@@ -11,6 +11,20 @@ li {
     margin-top: 3px;
 }
 
+#back {
+    position: fixed;
+    margin: 10px;
+}
+
+#back > a {
+    margin: 10px;
+    font-size: 45px;
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    color: #5983C3;
+}
+
 #header {
     width: 50%;
     margin: auto;
@@ -27,7 +41,7 @@ li {
 }
 
 .subheader {
-    font-weight: bold;
+    font-weight: 600;
     text-decoration: underline;
     display: block;
     margin-top: 40px;
@@ -36,7 +50,7 @@ li {
 
 #role > span {
     margin-bottom: 8px;
-    font-weight: bold;
+    font-weight: 600;
     display: block;
 }
 
@@ -60,7 +74,7 @@ li {
 }
 
 #final {
-    font-weight: bold;
+    font-weight: 600;
     text-decoration: underline;
 }
 
@@ -79,6 +93,10 @@ li {
         font-size: 45px;
         margin-bottom: 25px;
     }
+
+    #back > a {
+        font-size: 35px;
+    }
 }
 
 @media only screen and (max-width: 800px) {
@@ -92,6 +110,14 @@ li {
 
     #goal {
         box-shadow: -5px 5px 0 #FCB95C;
+    }
+
+    #back {
+        position: absolute;
+    }
+
+    #back > a {
+        font-size: 25px;
     }
 }
 
