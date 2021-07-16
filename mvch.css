@@ -29,7 +29,6 @@ li {
 .subheader {
     font-weight: bold;
     text-decoration: underline;
-    font-style: italic;
     display: block;
     margin-top: 40px;
     margin-bottom: 3px;
@@ -56,13 +55,22 @@ li {
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 5px 10px -1px rgba(0, 0, 0, 0.05);
 }
 
+#image {
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+#image > img {
+    width: 100%;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 5px 10px -1px rgba(0, 0, 0, 0.05);
+}
+
 .list {
     margin-top: 0px;
 }
 
 #final {
     font-weight: bold;
-    font-style: italic;
     text-decoration: underline;
 }
 
