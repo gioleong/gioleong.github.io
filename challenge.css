@@ -1,15 +1,14 @@
-/* body {
-    background-color: #FCB95C;
-} */
-
 h1 {
     font-size: 70px;
-    color: #5983C3;
+    color: #004BA8;
 }
 
-li {
-    margin-top: 3px;
+
+.box {
+    border: 3px solid #24272B;
+    box-shadow: -20px 20px 0px #24272B;
 }
+
 
 #back {
     position: fixed;
@@ -22,7 +21,7 @@ li {
     text-decoration: none;
     font-family: 'Major Mono Display', monospace;
     /* font-weight: 500; */
-    color: #5983C3;
+    color: #004BA8;
 }
 
 #header {
@@ -35,62 +34,18 @@ li {
     color: grey;
 }
 
-.box {
-    border: 3px solid #393E57;
-    box-shadow: -20px 20px 0px #393E57;
-}
-
-.subheader {
-    font-weight: 500;
-    text-decoration: underline;
-    display: block;
-    margin-top: 40px;
-    margin-bottom: 3px;
-}
-
-#role > span {
-    margin-bottom: 8px;
-    font-weight: 500;
-    display: block;
-}
-
-#goal {
-    border: 3px solid #FCB95C;
-    box-shadow: -20px 20px 0px #FCB95C;
-}
-
-.gif {
+#gif {
     margin-top: 20px;
-    margin-bottom: 30px;
 }
 
-.gif > img {
+#gif > img {
     width: 100%;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 5px 10px -1px rgba(0, 0, 0, 0.05);
 }
 
-.list {
-    margin-top: 0px;
-}
-
-#final {
-    font-weight: 500;
-}
-
-#small-title {
-    display: none;
-}
-
-
 @media only screen and (max-width: 1200px) {
     #title {
-        display: none;
-    }
-
-    #small-title {
-        display: block;
-        font-size: 45px;
-        margin-bottom: 25px;
+        font-size: 55px;
     }
 
     #back > a {
@@ -99,6 +54,11 @@ li {
 }
 
 @media only screen and (max-width: 800px) {
+
+    #title {
+        font-size: 25px;
+    }
+
     #header > p {
         font-size: 10px;
     }
@@ -119,4 +79,3 @@ li {
         font-size: 35px;
     }
 }
-
