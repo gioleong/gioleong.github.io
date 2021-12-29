@@ -4,7 +4,7 @@
 
 h1 {
     font-size: 70px;
-    color: #5983C3;
+    color: #715AFF;
 }
 
 li {
@@ -36,8 +36,8 @@ li {
 }
 
 .box {
-    border: 3px solid #393E57;
-    box-shadow: -20px 20px 0px #393E57;
+    border: 3px solid #102E4A;
+    box-shadow: -20px 20px 0px #102E4A;
 }
 
 .subheader {
@@ -55,8 +55,8 @@ li {
 }
 
 #goal {
-    border: 3px solid #FCB95C;
-    box-shadow: -20px 20px 0px #FCB95C;
+    border: 3px solid #715AFF;
+    box-shadow: -20px 20px 0px #715AFF;
 }
 
 .gif {
@@ -66,7 +66,14 @@ li {
 
 .gif > img {
     width: 100%;
-    /* box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 5px 10px -1px rgba(0, 0, 0, 0.05); */
+}
+
+.gif > #cad {
+    width: 30%;
+}
+
+.gif > #task {
+    width: 50%;
 }
 
 .list {
@@ -96,6 +103,14 @@ li {
     #back > a {
         font-size: 55px;
     }
+
+    .gif > #task {
+        width: 100%;
+    }
+
+    .gif > #cad {
+        width: 70%;
+    }
 }
 
 @media only screen and (max-width: 800px) {
@@ -118,5 +133,10 @@ li {
     #back > a {
         font-size: 35px;
     }
+
+    .gif > #cad {
+        width: 70%;
+    }
+
 }
 
