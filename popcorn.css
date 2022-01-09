@@ -4,7 +4,7 @@
 
 h1 {
     font-size: 70px;
-    color: #715AFF;
+    color: #E3655B;
 }
 
 li {
@@ -22,7 +22,7 @@ li {
     text-decoration: none;
     font-family: 'Major Mono Display', monospace;
     /* font-weight: 500; */
-    color: #5983C3;
+    color: #E3655B;
 }
 
 #header {
@@ -36,8 +36,8 @@ li {
 }
 
 .box {
-    border: 3px solid #102E4A;
-    box-shadow: -20px 20px 0px #102E4A;
+    border: 3px solid #EFEFEF;
+    box-shadow: -20px 20px 0px #EFEFEF;
 }
 
 .subheader {
@@ -55,8 +55,8 @@ li {
 }
 
 #goal {
-    border: 3px solid #715AFF;
-    box-shadow: -20px 20px 0px #715AFF;
+    border: 3px solid #E3655B;
+    box-shadow: -20px 20px 0px #E3655B;
 }
 
 .gif {
@@ -95,7 +95,7 @@ li {
     } */
 
     #header > h1 {
-        font-size: 50px;
+        font-size: 65px;
     }
 
     #small-title {
@@ -107,14 +107,6 @@ li {
     #back > a {
         font-size: 55px;
     }
-
-    .gif > #task {
-        width: 100%;
-    }
-
-    .gif > #cad {
-        width: 70%;
-    }
 }
 
 @media only screen and (max-width: 800px) {
@@ -123,15 +115,15 @@ li {
     }
 
     #header > h1 {
-        font-size: 25px;
+        font-size: 30px;
     }
 
     .box {
-        box-shadow: -5px 5px 0 #102E4A;
+        box-shadow: -5px 5px 0 #EFEFEF;
     }
 
     #goal {
-        box-shadow: -5px 5px 0 #715AFF;
+        box-shadow: -5px 5px 0 #E3655B;
     }
 
     #back {
@@ -140,10 +132,6 @@ li {
 
     #back > a {
         font-size: 35px;
-    }
-
-    .gif > #cad {
-        width: 70%;
     }
 
 }
